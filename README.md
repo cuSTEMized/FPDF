@@ -1,21 +1,23 @@
 # FPDF
-**This repository is only made for cloning official FPDF releases which are available at: http://www.fpdf.org**
-**THERE WILL BE NO DEVELOPMENT IN THIS REPOSITORY!**
 
-FPDF is a PHP class which allows to generate PDF files with pure PHP. F from FPDF stands for Free: you may use it for any kind of usage and modify it to suit your needs.
+This is a repository with a modified version of FPDF suitable for CuSTEMized.
 
-## Installation with [Composer](https://packagist.org/packages/setasign/fpdf)
+Please see <http://www.fpdf.org/> for the official version of FPDF.
 
-If you're using Composer to manage dependencies, you can use
+## Installation with Composer
 
-    $ composer require setasign/fpdf:1.8.1
-
-or you can include the following in your composer.json file:
+Include the following in your composer.json file:
 
 ```json
 {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/custemized/fpdf"
+        }
+    ],
     "require": {
-        "setasign/fpdf": "1.8.1"
+        "setasign/fpdf": "dev-master"
     }
 }
 ```
