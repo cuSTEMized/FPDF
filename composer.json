@@ -15,7 +15,8 @@
     ],
     "autoload": {
         "classmap": [
-            "fpdf.php"
+            "fpdf.php",
+            "fpdf2file.php"
         ]
     }
 }
